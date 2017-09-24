@@ -1,0 +1,25 @@
+@-moz-document domain("reddit.com") {
+  .score {
+    display: none;
+  }
+}
+
+@-moz-document domain("youtube.com") {
+  [aria-label*="likes"] {
+    display: none;
+  }
+}
+
+@-moz-document domain("twitter.com") {
+  .ProfileTweet-actionCount,
+  .stats {
+    display: none;
+  }
+}
+
+@-moz-document domain("facebook.com") {
+  .UFILikeSentence,
+  .UFICommentReactionsBling {
+    display: none;
+  }
+}
